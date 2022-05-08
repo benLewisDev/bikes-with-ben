@@ -1,9 +1,11 @@
 body {
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0;
 }
+
 
 .header {
     display: flex;
@@ -94,7 +96,7 @@ li {
 
 .life-pics {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: flex-start;
     margin-top: 56px;
     gap: 32px;
@@ -119,4 +121,63 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 20%;
+    
+}
+
+.section-three :last-child{
+    align-self: flex-end;
+    margin-right: 10%;
+}
+
+#quote {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 50;
+    color: #1f2937;
+}
+
+#dude {
+    font-weight: bolder;
+}
+
+.section-four {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 48px;
+    padding: 48px 100px;
+    border-radius: 10px;
+    color: #e5e7eb;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+}
+
+.action p {
+    margin: 0;
+    padding: 0;
+}
+
+.action :first-child {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action :last-child {
+    font-size: 12px;
+}
+
+.section-four button {
+    background-color: #e5e7eb;
+    border-radius: 4px;
+    color: #3882f6;
+    border: none;
+    font-size: x-small;
+    font-weight: bold;
+    padding: 5px 20px;
+
 }

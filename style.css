@@ -2,10 +2,10 @@ body {
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0;
+    min-height: 100vh;
 }
-
 
 .header {
     display: flex;
@@ -30,6 +30,10 @@ li {
     padding: 4px;
     list-style: none;
     gap: 8px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .section-one {
@@ -172,12 +176,20 @@ li {
 }
 
 .section-four button {
-    background-color: #e5e7eb;
+    background-color: #3882f6;
     border-radius: 4px;
-    color: #3882f6;
-    border: none;
+    color: #e5e7eb;
+    border: solid #e5e7eb;
     font-size: x-small;
     font-weight: bold;
     padding: 5px 20px;
 
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

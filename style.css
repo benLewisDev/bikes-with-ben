@@ -12,13 +12,13 @@ body {
     display: flex;
     justify-content: space-between;
     flex-shrink: 0;
-    padding: 3px 15%;
+    padding: 3px 10%;
     
 }
 
-.header p{
+.header img{
     margin:  0;
-    padding: 0;
+    padding: 5px, 
     flex-shrink: 0;
 }
 
@@ -30,10 +30,11 @@ li {
 
 .links {
     display: flex;
+    font-size: 25px;
     margin: 0 4px;
     padding: 0 4px;
     list-style: none;
-    gap: 24px;
+    gap: 75px;
     
 }
 
@@ -53,7 +54,7 @@ a {
     justify-content: space-between;
     flex-shrink: 0;
     margin: 5% 0;
-    padding: 0 15%;
+    padding: 0 10%;
 }
 
 .hero {
@@ -69,7 +70,7 @@ a {
     flex-direction: column;
     align-items: flex-start;
     flex-shrink: 0;
-    max-width: 400px;
+    max-width: 650px;
     
     
 }
@@ -78,6 +79,7 @@ a {
     font-size: 18px;
     margin: 0;
     margin-bottom: 12px;
+    max-width: 500px;
 }
 
 .hero-container button {
@@ -92,7 +94,7 @@ a {
 }
 
 .section-one img {
-    max-width: 450px;
+    max-width: 700px;
 }
 
 .title-two {
@@ -133,7 +135,7 @@ a {
 
 .life img {
     width: 200px;
-    height: 150px;
+    height: auto;
 }
 
 .section-three {
